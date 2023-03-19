@@ -1,3 +1,33 @@
+/* Подключение шрифтов */
+
+@font-face {
+    font-family: Gelasio;
+    src: url("../fonts/Gelasio/Gelasio-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-regular";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-medium";
+    src: url("../fonts/Poppins/Poppins-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
 /* CSS Reset styles */
 
 *,
