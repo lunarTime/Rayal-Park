@@ -400,4 +400,119 @@ select {
     opacity: 0.6;
 }
 
+.main-hotel-gallery-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.gallery-item {
+    flex: 0 0 47%;
+    max-width: 47%;
+    padding-top: 17%;
+    margin: 0 15px 23px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-hotel-gallery-room-lux {
+    background-image: url("../images/lux.jpg");
+}
+
+.main-hotel-gallery-room-mini {
+    background-image: url("../images/mini.jpg");
+}
+
+.main-hotel-gallery-room-stande {
+    background-image: url("../images/stande.jpg");
+}
+
+.main-hotel-gallery-room-single {
+    background-image: url("../images/single.jpg");
+}
+
+.main-hotel-gallery-room-elite {
+    background-image: url("../images/elite.jpg");
+}
+
+.main-hotel-gallery-room-info-block {
+    display: flex;
+    padding: 22px 19px;
+    width: max-content;
+    background: rgba(226, 226, 226, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.main-hotel-gallery-information.gallery-item p,
+.main-hotel-gallery-room-right {
+    font-family: Roboto, sans-serif;
+}
+
+.main-hotel-gallery-room-left {
+    font-size: 14px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.8;
+}
+
+.main-hotel-gallery-room-left * {
+    font-family: Gelasio, sans-serif;
+}
+
+.main-hotel-gallery-room-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+}
+
+.main-hotel-gallery-room-right {
+    width: max-content;
+    margin-left: 13px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.3;
+    color: #081F32;
+    opacity: 0.8;
+}
+
+.main-hotel-gallery-room-right .room-price {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-hotel-gallery-information {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-hotel-gallery-information h2 {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+}
+
+.main-hotel-gallery-information.gallery-item p {
+    width: 80%;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+}
+
+.main-hotel-gallery {
+    font-family: Roboto, sans-serif;
+}
+
 /* START MAIN STYLES */
