@@ -263,7 +263,7 @@ select {
 }
 
 .main-dream-holidays {
-    margin: 200px 41px;
+    margin: 200px 41px 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,5 +325,79 @@ select {
     transition: all .4s;
 }
 
+.main-why-choose-block {
+    text-align: center;
+}
+
+.main-why-choose {
+    margin-bottom: 140px;
+}
+
+.main-why-choose-block * {
+    font-family: Gelasio, sans-serif;
+}
+
+.main-why-choose-advantage-description {
+    font-family: Roboto, sans-serif;
+}
+
+.main-why-choose-advantages-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.main-why-choose-advantage-icon {
+    max-width: 74px;
+    margin: 0 auto 41px;
+}
+
+.main-why-choose-title {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+}
+
+.main-why-choose-description {
+    width: 73%;
+    margin: 0 auto 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #081F32;
+    opacity: 0.6;
+    font-family: Roboto, sans-serif;
+}
+
+.main-why-choose-advantage {
+    flex: 1;
+    margin: 0 15px;
+    padding: 21px 17px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 4px 30px rgb(199 199 199 / 15%);
+    border-radius: 5px;
+}
+
+.main-why-choose-advantage-title {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+}
+
+.main-why-choose-advantage-description {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    text-align: center;
+    color: #081F32;
+    opacity: 0.6;
+}
 
 /* START MAIN STYLES */
