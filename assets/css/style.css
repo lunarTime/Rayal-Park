@@ -113,6 +113,8 @@ select {
     transition: all .3s;
 }
 
+/* START HEADER STYLES */
+
 .header {
     background-image: url("../images/header-image.jpg");
     background-position: center;
@@ -249,3 +251,79 @@ select {
     right: -25px;
     top: 25%;
 }
+
+/* END HEADER STYLES */
+
+/* START MAIN STYLES */
+
+.main {
+    max-width: 2000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-dream-holidays {
+    margin: 200px 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-dream-holidays * {
+    font-family: Roboto, sans-serif;
+}
+
+.main-dream-holidays-right {
+    margin-left: 98px;
+}
+
+.main-dream-holidays-right-title {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: .8;
+}
+
+.main-dream-holidays-right-description {
+    margin-bottom: 30px;
+    width: 64%;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+    font-family: Gelasio, sans-serif;
+}
+
+.main-dream-holidays-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-dream-holidays-left::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50px;
+    background-image: url("../images/play-btn.svg");
+    background-position: 40px center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all .4s;
+}
+
+.main-dream-holidays-left:hover::after {
+    transform: scale(1.1);
+    transition: all .4s;
+}
+
+
+/* START MAIN STYLES */
