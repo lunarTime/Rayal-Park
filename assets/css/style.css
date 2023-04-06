@@ -725,4 +725,118 @@ select {
     transition: all .4s;
 }
 
-/* START MAIN STYLES */
+/* END MAIN STYLES */
+
+/* START FOOTER STYLES */
+
+.footer {
+    padding: 78px 0 137px;
+    background-color: #FCFCFD;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 100%;
+}
+
+.footer-column.information {
+    position: relative;
+    top: -45px;
+    max-width: 265px;
+}
+
+.footer-column.subscribe .main-stay-in-touch-block {
+    position: relative;
+    left: -5px;
+}
+
+.footer-logotype {
+    display: block;
+    max-height: 100px;
+}
+
+.footer-logotype img {
+    position: relative;
+    left: -20px;
+}
+
+.footer-column.information p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    font-style: normal;
+    font-family: "Poppins-medium", sans-serif;
+    color: #081F32;
+    opacity: 0.7;
+}
+
+.footer-mail {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-family: "Poppins-medium", sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #081F32;
+    opacity: 0.7;
+    transition: all .4s;
+}
+
+.footer-mail:hover {
+    color: #1b75bb;
+    opacity: 1;
+    transition: all .4s;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 28px;
+}
+
+.footer-socials > a {
+    transition: all .4s;
+}
+
+.footer-socials > a:hover {
+    box-shadow: 0 3px 31px rgb(0 0 0 / 32%);
+    transform: scale(1.5);
+    transition: all .4s;
+}
+
+.footer-column h3 {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #081F32;
+    font-family: "Poppins-medium", sans-serif;
+}
+
+.footer-nav a {
+    margin-bottom: 20px;
+    display: block;
+    font-family: "Poppins-medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #081F32;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.footer-nav a:hover {
+    color: #1b75bb;
+    opacity: 1;
+    transition: all .3s;
+}
+
+/* END FOOTER STYLES */
