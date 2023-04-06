@@ -632,4 +632,97 @@ select {
     transition: all .4s;
 }
 
+.main-stay-in-touch-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-stay-in-touch {
+    margin-bottom: 124px;
+}
+
+.main-stay-in-touch-title {
+    margin-bottom: 20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #081F32;
+    opacity: 0.8;
+}
+
+.main-stay-in-touch-description {
+    margin-bottom: 50px;
+    font-family: Gelasio, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    text-align: center;
+    color: #081F32;
+}
+
+.main-stay-in-touch-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 570px;
+}
+
+.main-stay-in-touch-submit {
+    padding: 15px 40px;
+    cursor: pointer;
+    z-index: 2;
+    font-family: "Poppins-medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-stay-in-touch-email {
+    display: flex;
+    flex: 1;
+    position: relative;
+    padding: 15px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    right: -5px;
+    z-index: 1;
+    font-family: "Poppins-medium", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #081f327d;
+    outline: none;
+    transition: all .4s;
+}
+
+.main-stay-in-touch-email::placeholder {
+    color: #081f327d;
+}
+
+.main-stay-in-touch-email:focus,
+.main-stay-in-touch-email:hover {
+    border: 1px solid #1b75bb;
+    box-shadow: 0 4px 30px rgb(199 199 199 / 25%);
+    transition: all .4s;
+}
+
+.main-stay-in-touch-email:invalid:not(:placeholder-shown) {
+    border-color: rgba(139, 0, 0, 0.75);
+    transition: all .4s;
+}
+
+.main-stay-in-touch-email:valid:not(:placeholder-shown) {
+    border-color: rgba(56, 161, 42, 0.75);
+    transition: all .4s;
+}
+
 /* START MAIN STYLES */
