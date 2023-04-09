@@ -91,6 +91,7 @@ select {
 .container {
     width: 100%;
     max-width: 1200px;
+    min-width: 320px;
     padding: 0 30px;
     margin: 0 auto;
 }
@@ -840,3 +841,277 @@ select {
 }
 
 /* END FOOTER STYLES */
+
+/* START RESPONSIVE STYLES */
+
+@media all and (max-width: 1160px) {
+    .footer-block {
+        gap: 10px;
+    }
+
+    .footer-column {
+        max-width: 33%;
+        width: 33%;
+    }
+
+    .footer-column.subscribe {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media all and (max-width: 1060px) {
+    .gallery-item {
+        margin: 0 10px 20px;
+        padding-top: 20%;
+        display: flex;
+        height: 100%;
+        align-self: self-end;
+    }
+}
+@media all and (max-width: 992px) {
+    .main-why-choose-advantages-block {
+        justify-content: center;
+    }
+
+    .main-why-choose-advantage {
+        flex: 0 0 47%;
+        max-width: 47%;
+        margin: 7px;
+        padding: 15px;
+    }
+
+    .main-dream-holidays {
+        flex-direction: column;
+    }
+
+    .main-dream-holidays-left {
+        margin-bottom: 20px;
+    }
+
+    .main-dream-holidays-left::after {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-dream-holidays-right-title {
+        font-size: 17px;
+    }
+
+    .main-dream-holidays-right-description {
+        width: 100%;
+    }
+
+    .main-dream-holidays {
+        margin: 170px 20px 60px;
+    }
+
+    .main-dream-holidays-left::after {
+        background-position: 30px center;
+    }
+
+    .main-dream-holidays-right {
+        margin-left: 0;
+    }
+
+    .main-why-choose {
+        margin-bottom: -40px;
+    }
+
+    .main-hotel-gallery-information h2,
+    .main-client-reviews-head h2 {
+        font-size: 27px;
+    }
+
+    .main-hotel-gallery-information.gallery-item p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .main-dream-holidays .default-button {
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .main-client-reviews-head .main-client-reviews-view-all {
+        font-size: 14px;
+    }
+
+    .main-client-reviews {
+        margin: 70px 0;
+    }
+
+    .footer-column {
+        max-width: 25%;
+        width: 25%;
+    }
+
+    .footer-mail {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header .header-top {
+        margin-bottom: 100px;
+    }
+    
+    .default-button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .header-choose-room {
+        top: 80px;
+        left: 0;
+        margin-left: auto;
+        padding: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-choose-room > div::after {
+        content: "";
+        position: absolute;
+        top: 110%;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: #9DACB8;
+        opacity: .4;
+    }
+
+    .header-choose-room > div {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .header-middle {
+        text-align: center;
+    }
+
+    .read-more {
+        margin: 0 auto;
+    }
+
+    .header .header-title,
+    .header .header-title span {
+        font-size: 42px;
+        line-height: 120%;
+    }
+
+    .header .header-description {
+        font-size: 16px;
+    }
+
+    .header .header-top,
+    .header .header-left-content {
+        flex-direction: column;
+    }
+
+    .header .header-nav {
+        margin-bottom: 25px;
+    }
+
+    .main-client-review-item {
+        margin: 8px;
+        padding: 15px 22px;
+    }
+
+    .main-client-review-item blockquote {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .main-client-review-name,
+    .main-stay-in-touch-title,
+    .header .header-subtitle {
+        font-size: 17px;
+    }
+
+    .main-client-review-link {
+        font-size: 12px;
+    }
+
+    .main-stay-in-touch-description {
+        font-size: 27px;
+    }
+
+    .footer {
+        padding: 0 0 137px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .gallery-item {
+        margin: 0 4px 8px;
+    }
+}
+@media all and (max-width: 600px) {
+    .main-why-choose-advantage,
+    .gallery-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .gallery-item {
+        margin: 0 0 15px;
+    }
+
+    .main-client-review-item {
+        flex: 0 0 100%;
+        margin: 0 0 15px;
+        max-width: 100%;
+    }
+
+    .footer-column,
+    .footer-column.information {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .footer-column, .footer-column.information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-nav {
+        text-align: center;
+    }
+}
+@media all and (max-width: 500px) {
+    .header .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .main-client-reviews-head {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .main-stay-in-touch .main-stay-in-touch-subscribe,
+    .footer-column.subscribe .main-stay-in-touch-subscribe{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-stay-in-touch .main-stay-in-touch-subscribe input,
+    .footer-column.subscribe .main-stay-in-touch-subscribe input {
+        right: 0;
+    }
+
+    .footer-column.subscribe .main-stay-in-touch-block {
+        left: 0;
+    }
+
+    .main-stay-in-touch-submit.default-button {
+        align-self: center;
+    }
+}
+
+/* END RESPONSIVE STYLES */
