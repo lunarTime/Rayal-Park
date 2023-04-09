@@ -843,6 +843,11 @@ select {
 /* END FOOTER STYLES */
 
 /* START RESPONSIVE STYLES */
+@media all and (min-width: 1921px) {
+    .container {
+        max-width: 1600px;
+    }
+}
 
 @media all and (max-width: 1160px) {
     .footer-block {
